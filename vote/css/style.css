@@ -190,11 +190,25 @@ section#h3 {
 
 /* vs name */
 
-#icon_name {
+#icon_box {
 	width: 288px;
 	min-height: 43px;
 	overflow: hidden;
 	padding: 15px 16px 0 16px;
+}
+
+#name_l,#name_r {
+	width: 144px;
+	height: 43px;
+	float:left;
+}
+
+#name_l {
+	float:left;
+}
+
+#name_r {
+	float:right;
 }
 
 #icon_name_l,#icon_name_r {
@@ -205,37 +219,45 @@ section#h3 {
 }
 
 #icon_name_l {
-	float:left;
+	/* float:left; */
 	text-align: left;
 }
 
 #icon_name_r {
-	float:right;
+	/* float:right; */
 	text-align: right;
 }
 
 .icon_name_bg_l {
+	width: 144px;
+	height: 43px;
 	background-image:url(../images/icon_name_l.png);
 	background-repeat: no-repeat;
-	background-size: 244px,63px;
+	background-size: 144px,43px;
 }
 
 .icon_name_bg_l_on {
+	width: 144px;
+	height: 43px;
 	background-image:url(../images/icon_name_l_on.png);
 	background-repeat: no-repeat;
-	background-size: 244px,63px;
+	background-size: 144px,43px;
 }
 
 .icon_name_bg_r {
+	width: 144px;
+	height: 43px;
 	background-image:url(../images/icon_name_r.png);
 	background-repeat: no-repeat;
-	background-size: 244px,63px;
+	background-size: 144px,43px;
 }
 
 .icon_name_bg_r_on {
+	width: 144px;
+	height: 43px;
 	background-image:url(../images/icon_name_r_on.png);
 	background-repeat: no-repeat;
-	background-size: 244px,63px;
+	background-size: 144px,43px;
 }
 
 

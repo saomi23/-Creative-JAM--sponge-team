@@ -161,8 +161,7 @@ ul#sort_new,ul#sort_passion {
 }
 
 ul#sort_new {
-	background-color:#46506d;
-	opacity: 0.6;
+	background-image:url(../images/sort_bg.png);
 	display: block;
 	width: 320px;
 }
@@ -173,20 +172,13 @@ ul#sort_passion {
 
 div#sort ul.sort {
 	display: block;
-	background-color:#46506d;
-	opacity: 0.6;
+	background-image:url(../images/sort_bg.png);
 	display: block;
 	width: 320px;
 }
 
 div#sort ul.sort_none {
 	display: none;
-}
-
-.sort_bg {
-	width: 320px;
-	background-color: #46506d;
-	opacity: 0.6;
 }
 
 /* タブ */
@@ -264,14 +256,7 @@ nav {
 	display: -webkit-box;
 }
 
-/*
-.vs {
-	position: absolute;
-	top:10px;
-	width: 320px;
-	height: 320px;
-}
-*/
+
 
 .vs_img {
 	width: 33px;

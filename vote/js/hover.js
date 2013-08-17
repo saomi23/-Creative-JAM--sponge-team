@@ -1,49 +1,50 @@
 (function() {
 
 	//iconNameLeft
-	var iconNameEl      = null;
-	var iconNameBgEl    = null;
+	var iconNameLeft       = null;
+	var iconNameLeftBg     = null;
 	
 	//iconNameRight
-	var iconNameEl      = null;
-	var iconNameBgEl    = null;
+	var iconNameRight      = null;
+	var iconNameRightBg    = null;
 
 	function cacheDOMs () {
-		//backBtn
-		backBtnEl      = document.getElementById('back');
-		backBtnIconEl  = document.getElementById('h_back');
+		//iconNameLeft
+		iconNameLeft      = document.getElementById('name_l');
+		iconNameLeftBg    = document.getElementById('icon_name_l');
 		
-		//buildBtn		
-		buildBtnEl     = document.getElementById('build');
-		buildBtnIconEl = document.getElementById('h_build');
+		//iconNameRight		
+		iconNameRight     = document.getElementById('name_r');
+		iconNameRightBg   = document.getElementById('icon_name_r');
 	};
 
 	function setEvents () {
-		//backBtn
-		backBtnEl.addEventListener("touchstart", function(e) {
-			backBtnIconEl.className = "back_img_on";
+		//iconNameLeft
+		iconNameLeft.addEventListener("touchstart", function(e) {
+			iconNameLeftBg.className = "icon_name_bg_l_on";
 		});
-		backBtnEl.addEventListener("touchmove", function(e) {
-			backBtnIconEl.className = "back_img";
+		iconNameLeft.addEventListener("touchmove", function(e) {
+			iconNameLeftBg.className = "icon_name_bg_l_on";
 		});
-		backBtnEl.addEventListener("touchend", function(e) {
-			if (backBtnIconEl.className === "back_img_on") {
-				location.href = "../battle_build/index.html"
+		iconNameLeft.addEventListener("touchend", function(e) {
+			if (iconNameLeftBg.className === "icon_name_bg_l_on") {
+				location.href = "../comment_list/index.html?vs1"
 			}
 		});
 		
-		//buildBtn
-		buildBtnEl.addEventListener("touchstart", function(e) {
-			buildBtnIconEl.className = "build_img_on";
+		//iconNameRight
+		iconNameRight.addEventListener("touchstart", function(e) {
+			iconNameRightBg.className = "icon_name_bg_r_on";
 		});
-		buildBtnEl.addEventListener("touchmove", function(e) {
-			buildBtnIconEl.className = "build_img";
+		iconNameRight.addEventListener("touchmove", function(e) {
+			iconNameRightBg.className = "icon_name_bg_r_on";
 		});
-		buildBtnEl.addEventListener("touchend", function(e) {
-			if (buildBtnIconEl.className === "build_img_on") {
-				location.href = "../battle_build/index.html"
+		iconNameRight.addEventListener("touchend", function(e) {
+			if (iconNameRightBg.className === "icon_name_bg_r_on") {
+				location.href = "../comment_list/index.html?vs2"
 			}
 		});
+		
 	}
 
 	document.addEventListener("DOMContentLoaded", function (e) {
