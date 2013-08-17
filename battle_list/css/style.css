@@ -24,6 +24,10 @@ div#wrapper {
 	width: 100%;
 }
 
+li {
+	list-style: none;
+}
+
 /* 見出し（hタグ） */
 
 h1,h2 {
@@ -153,7 +157,7 @@ h2 {
 }
 
 ul#sort_new,ul#sort_passion {
-	position: absolute;
+	position: relative;
 }
 
 ul#sort_new {
@@ -177,6 +181,12 @@ div#sort ul.sort {
 
 div#sort ul.sort_none {
 	display: none;
+}
+
+.sort_bg {
+	width: 320px;
+	background-color: #46506d;
+	opacity: 0.6;
 }
 
 /* タブ */
@@ -253,6 +263,15 @@ nav {
 .box {
 	display: -webkit-box;
 }
+
+/*
+.vs {
+	position: absolute;
+	top:10px;
+	width: 320px;
+	height: 320px;
+}
+*/
 
 .vs_img {
 	width: 33px;
