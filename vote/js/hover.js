@@ -24,7 +24,7 @@
 			iconNameLeftBg.className = "icon_name_bg_l_on";
 		});
 		iconNameLeft.addEventListener("touchmove", function(e) {
-			iconNameLeftBg.className = "icon_name_bg_l_on";
+			iconNameLeftBg.className = "icon_name_bg_l";
 		});
 		iconNameLeft.addEventListener("touchend", function(e) {
 			if (iconNameLeftBg.className === "icon_name_bg_l_on") {
@@ -37,7 +37,7 @@
 			iconNameRightBg.className = "icon_name_bg_r_on";
 		});
 		iconNameRight.addEventListener("touchmove", function(e) {
-			iconNameRightBg.className = "icon_name_bg_r_on";
+			iconNameRightBg.className = "icon_name_bg_r";
 		});
 		iconNameRight.addEventListener("touchend", function(e) {
 			if (iconNameRightBg.className === "icon_name_bg_r_on") {
