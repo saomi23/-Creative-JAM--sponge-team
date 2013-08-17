@@ -10,20 +10,18 @@ body {
 	font-family: "Helvetica-Light", "Helvetica Light", "Helvetica", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	line-height: 26pt;
-	letter-spacing:2px;
+	letter-spacing: 2px;
 	color: #2c2c2c;
-	background-color:#FFF;
 	margin: 0 auto 0 auto;
 	text-align: center;
+	background-image: url(../images/bg.jpg);
+	background-size: 320px,139px;
+	background-repeat: repeat-y;
+	background-position: center;
 }
 
 div#wrapper {
 	width: 100%;
-	height: auto;
-	text-align: center;
-	background-color: #585da1;
-	background-image: url(../images/bg.jpg);
-	background-size: 298px,139px;
 }
 
 /* 見出し（hタグ） */
@@ -146,27 +144,53 @@ h2 {
 }
 
 
-/* バトルリスト */
+/* バトルリスト ソート */
 
-#battle_list {
-	width: 298px;
+#sort {
+	width: auto;
 	height: auto;
-	padding: 0 20px;
-	background-image: url(../images/bg.jpg);
-	background-size: 320px,196px;
+	position: relative;
+}
+
+ul.sort_new,ul.sort_passion {
+	position: absolute;
+}
+
+ul.sort_new {
+	background-color:#46506d;
+	opacity: 0.6;
+	display: block;
+	width: 320px;
+}
+
+ul.sort_passiong {
+	display: none;
 }
 
 /* タブ */
 
 nav {
 	width: 320px;
+	display: -webkit-box;
 }
 
-nav#tab_new,nav#tab_passion {
+.tab {
 	width: 160px;
-	background-color:#FFF;
-	opacity: 0.3;
-	height: 50px;
+	opacity: 0.6;
+	height: 25px;
+	font-size:12px;
+	font-weight:bold;
+	color: #fff;
+}
+
+.tab_on {
+	width: 160px;
+	background-color:#46506d;
+	opacity: 0.6;
+	height: 25px;
+	font-size:12px;
+	font-weight:bold;
+	color: #fff;
 }
 
 
