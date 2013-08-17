@@ -1,14 +1,22 @@
 (function() {
 
-	var backBtnEl     = null;
-	var backBtnIconEl = null;
+	var backBtnEl      = null;
+	var backBtnIconEl  = null;
+	var buildBtnEl     = null;
+	var buildBtnIconEl = null;
 
 	function cacheDOMs () {
-		backBtnEl     = document.getElementById('back');
-		backBtnIconEl = document.getElementById('h_back');
+		//backBtn
+		backBtnEl      = document.getElementById('back');
+		backBtnIconEl  = document.getElementById('h_back');
+		
+		//buildBtn		
+		buildBtnEl     = document.getElementById('build');
+		buildBtnIconEl = document.getElementById('h_build');
 	};
 
 	function setEvents () {
+		//backBtn
 		backBtnEl.addEventListener("touchstart", function(e) {
 			backBtnIconEl.className = "back_img_on";
 		});
@@ -17,6 +25,19 @@
 		});
 		backBtnEl.addEventListener("touchend", function(e) {
 			if (backBtnIconEl.className === "back_img_on") {
+				location.href = "../battle_build/index.html"
+			}
+		});
+		
+		//buildBtn
+		buildBtnEl.addEventListener("touchstart", function(e) {
+			buildBtnIconEl.className = "build_img_on";
+		});
+		buildBtnEl.addEventListener("touchmove", function(e) {
+			buildBtnIconEl.className = "build_img";
+		});
+		buildBtnEl.addEventListener("touchend", function(e) {
+			if (buildBtnIconEl.className === "build_img_on") {
 				location.href = "../battle_build/index.html"
 			}
 		});
