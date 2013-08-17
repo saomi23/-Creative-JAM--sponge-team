@@ -59,6 +59,7 @@ h1 {
 	float: left;
 	margin: 0;
 	padding-left: 28px;
+	text-align: center;
 
 }
 
@@ -182,14 +183,15 @@ h2 p:nth-child(2) span {
 /* vs 画像 */
 
 .vs {
-	width: 296px;
+	width: 282px;
 	overflow: hidden;
-	padding: 5px 8px 5px 16px;
+	padding: 5px 13px 5px 25px;
 	background-image: url(../images/vs_tx_bg.png);
-	background-repeat:no-repeat;
+	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 35px,12px;
 	clear: both;
+
 }
 
 .vs_left {
@@ -268,7 +270,7 @@ h2 p:nth-child(2) span {
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 1.3;
-	padding: 0 5px;
+	padding: 10px 5px;
 }
 
 .vs_comment{
