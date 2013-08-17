@@ -65,40 +65,12 @@ h1 {
 
 h2 {
 	margin:0;
-	text-align: left;
+	text-align: center;
 	width: 100%;
 	height: 46px;
 	display: inline;
 }
 
-h2 p:nth-child(1) {
-	float:left;
-	background-image: url(../images/h2_l.jpg);
-	display: inline-block;
-	height: 23px;
-	width: 160px;
-	background-size: 160px, 23px;
-	line-height: 21px;
-}
-
-h2 p:nth-child(1) span {
-	padding-left:50px;
-}
-
-h2 p:nth-child(2) {
-	float:right;
-	background-image: url(../images/h2_r.jpg);
-	display: inline-block;
-	height: 23px;
-	width: 160px;
-	background-size: 160px, 23px;
-	line-height: 21px;
-	text-align: right;
-}
-
-h2 p:nth-child(2) span {
-	padding-right:50px;
-}
 
 
 
@@ -112,6 +84,8 @@ h2 p:nth-child(2) span {
 	position:relative;
 	overflow:hidden;
 }
+
+/* 戻るボタン */
 
 #back {
 	position: relative;
@@ -141,6 +115,8 @@ h2 p:nth-child(2) span {
 	background-size: 60px,35px;
 	background-repeat: no-repeat;
 }
+
+/* バトル新規作成ボタン */
 
 #build {
 	position: relative;
@@ -180,40 +156,51 @@ h2 p:nth-child(2) span {
 	background-size: 320px,196px;
 }
 
-/* vs 画像 */
+/* タブ */
 
-.vs {
-	width: 282px;
-	overflow: hidden;
-	padding: 5px 5px 5px 25px;
-	background-image: url(../images/vs_tx_bg.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 35px,12px;
-	clear: both;
-
+nav {
+	width: 320px;
 }
 
+nav#tab_new,nav#tab_passion {
+	width: 160px;
+	background-color:#FFF;
+	opacity: 0.3;
+	height: 50px;
+}
+
+
+/* vs 画像 */
 .vs {
 	width: 291px;
 	overflow: hidden;
-	padding: 5px 13px 5px 25px;
+	padding: 5px 2px 5px 25px;
+	clear: both;
+	background-image: url(../images/arrow.png);
+	background-position: right center;
+	background-size: 10px,12px;
+	background-repeat: no-repeat;
+}
+
+.box {
+	display: -webkit-box;
+}
+
+.vs_img {
+	width: 33px;
 	background-image: url(../images/vs_tx_bg.png);
 	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: 35px,12px;
-	clear: both;
-
+	background-size: 33px,30px;
+	height: 18px;
+	margin: 0 auto 3px auto;
 }
 
 .vs_left {
 	width: 65px;
-	float: left;
 }
 
 .vs_right {
 	width: 65px;
-	float: left;
 }
 
 .icon1_frame {
@@ -277,23 +264,22 @@ h2 p:nth-child(2) span {
 }
 
 .vs_title {
-	float: left;
 	width: 138px;
 	font-size: 14px;
 	font-weight: normal;
-	line-height: 1.3;
-	padding: 10px 5px;
 }
 
 .vs_comment{
-	font-size:12px;
+	font-size:10px;
 	color:#fff;
 	margin: 0;
 	padding: 0;
 	line-height: 1.7;
 	clear:both;
-	text-align: left;
+	text-align: center;
 	letter-spacing: 1px;
+	line-height: 16px;
+	padding-top: 4px;
 }
 
 hr {
@@ -305,19 +291,6 @@ hr {
 	margin: 0;
 	clear: both;
 }
-
-/*
-.arrow {
-	background-image:url(../images/arrow.png);
-	background-position:center center;
-	right: 10px;
-	width: 10px;
-	height: 144px;
-	background-size:10px,12px;
-	float: right;
-	background-repeat: no-repeat;
-}
-*/
 
 .arrow_bg {
 	background-image:url(../images/arrow.png);
