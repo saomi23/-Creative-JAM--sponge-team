@@ -205,16 +205,39 @@ section#h3 {
 }
 
 #icon_name_l {
-	background-image:url(../images/icon_name_l.png);
 	float:left;
 	text-align: left;
 }
 
 #icon_name_r {
-	background-image:url(../images/icon_name_r.png);
 	float:right;
 	text-align: right;
 }
+
+.icon_name_bg_l {
+	background-image:url(../images/icon_name_l.png);
+	background-repeat: no-repeat;
+	background-size: 244px,63px;
+}
+
+.icon_name_bg_l_on {
+	background-image:url(../images/icon_name_l_on.png);
+	background-repeat: no-repeat;
+	background-size: 244px,63px;
+}
+
+.icon_name_bg_r {
+	background-image:url(../images/icon_name_r.png);
+	background-repeat: no-repeat;
+	background-size: 244px,63px;
+}
+
+.icon_name_bg_r_on {
+	background-image:url(../images/icon_name_r_on.png);
+	background-repeat: no-repeat;
+	background-size: 244px,63px;
+}
+
 
 #icon_name_l span,#icon_name_r span {
 	font-size:12px;
@@ -241,6 +264,7 @@ section#h3 {
 	text-align: left;
 	color: #fff;
 }
+
 
 /* フッターナビ */
 
