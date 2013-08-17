@@ -112,53 +112,7 @@ h2 p:nth-child(2) span {
 	overflow:hidden;
 }
 
-/*
-.back {
-	position: relative;
-	width: 70px;
-	height: 48px;
-	float:left;
-}
-
-.back_img {
-	margin-top: 11px;
-	position: absolute;
-	left: 18px;
-	width: 33px;
-	height: 24px;
-	background-image: url(../images/back.png);
-	background-size: 33px,24px;
-}
-
-.back_img_on {
-	margin-top: 11px;
-	position: absolute;
-	left: 18px;
-	width: 33px;
-	height: 24px;
-	background-image: url(../images/back_on.png);
-	background-size: 33px,24px;
-}
-
-#search {
-	position: relative;
-	float:right;
-	width: 70px;
-	height: 48px;
-}
-
-#search_img {
-	margin-top: 11px;
-	position: absolute;
-	right: 18px;
-	width: 33px;
-	height: 24px;
-	background-image: url(../images/search.png);
-	background-size: 33px,24px;
-}
-*/
-
-.back {
+#back {
 	position: relative;
 	width: 70px;
 	height: 48px;
@@ -187,7 +141,7 @@ h2 p:nth-child(2) span {
 	background-repeat: no-repeat;
 }
 
-.build {
+#build {
 	position: relative;
 	float:right;
 	width: 70px;
