@@ -20,12 +20,18 @@
 		</div>
 	</section>
 	<nav>
-		<div class="tab_on" id="new"><span>新着</span></div>
-		<div class="tab" id="passion"><span>ホット</span></div>
+		<div id="tab_new">
+			<div id="tab_l" class="tab_bg_none"></div>
+			<p>新着</p>
+		</div>
+		<div id="tab_passion">
+			<div id="tab_r" class="tab_bg_r"></div>
+			<p>ホット</p>
+		</div>
 	</nav>
 	
 	<div id="sort">
-		<ul class="sort_new">
+		<ul id="sort_new" class="sort_none">
 			<li class="vs">
 				<div class="box">
 					<div class="vs_left">
@@ -57,34 +63,34 @@
 			<hr>
 		</ul>
 		
-		<ul class="sort_passion">
+		<ul id="sort_passion" class="sort">
 			<li class="vs">
 				<div class="box">
 					<div class="vs_left">
 						<div class="icon1_frame"><div class="icon1"></div></div>
 						<div class="num1">
-							<div>0</div>
+							<div>4</div>
 							<div>0</div>
 							<div>1</div>
 							<div>2</div>
 						</div>
 					</div>
 					<div class="vs_title">
-						<h2>きのこの山</h2>
+						<h2>Firefox</h2>
 						<div class="vs_img"></div>
-						<h2>たけのこの里</h2>
+						<h2>Chrome</h2>
 					</div>
 					<div class="vs_right">
 						<div class="icon1_frame"><div class="icon2"></div></div>
 						<div class="num1">
-							<div>1</div>
+							<div>9</div>
 							<div>2</div>
 							<div>3</div>
 							<div>4</div>
 						</div>
 					</div>
 				</div>
-				<p class="vs_comment">今こそ最強を決める時！来れ明治製菓厨ども！</p>
+				<p class="vs_comment">どう考えてもChromeが勝つｗ</p>
 			</li>
 			<hr>
 		</ul>
@@ -92,6 +98,7 @@
 	
 </div>
 <script type="text/javascript" src="js/script.js"></script>	
-<script type="text/javascript" src="js/hover.js"></script>	
+<script type="text/javascript" src="js/hover.js"></script>
+<script type="text/javascript" src="js/sort_tab.js"></script>	
 </body>
 </html> 

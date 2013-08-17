@@ -7,6 +7,11 @@
 	//buildBtn
 	var buildBtnEl     = null;
 	var buildBtnIconEl = null;
+	
+	//sortTab
+	var newTab         = null;
+	var passionTab     = null;
+	
 
 	function cacheDOMs () {
 		//backBtn
@@ -16,6 +21,10 @@
 		//buildBtn		
 		buildBtnEl     = document.getElementById('build');
 		buildBtnIconEl = document.getElementById('h_build');
+		
+		//sortTab		
+		newTab         = document.getElementById('build');
+		passionTab     = document.getElementById('h_build');
 	};
 
 	function setEvents () {
