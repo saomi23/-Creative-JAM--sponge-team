@@ -166,6 +166,7 @@ section#h3 {
 	width: 288px;
 	padding: 0 16px;
 	text-align: left;
+	position:relative;
 }
 
 #vs_img {
@@ -248,6 +249,12 @@ section#h3 {
 	left: 38px;
 }
 
+
+#name1,#name2 {
+	position: absolute;
+	left: 140px;
+	top: 40px;
+}
 
 /* フッターナビ */
 
