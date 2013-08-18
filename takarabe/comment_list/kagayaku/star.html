@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ハゲドウ</title>
+
+<meta name="viewport" content="width=640px">
+
+<!--CSSのはじまり-->
+<style type="text/css">
+body, div {
+	top : -60px;
+	left : 0px;
+	width : 640px;
+	height : 1136px;
+	background: url(battlegamen.jpg); 
+	background-size: 640px,1136px;
+	background-repeat: no-repeat;
+}
+
+.star {
+	position : absolute;
+	top : 350px;
+	left : -70px;
+	width : 390px;
+	height : 150px;
+	background: url(star.png); 
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-transition: 0.5s ease-in-out;
+}
+
+@-webkit-keyframes star_motion {
+	10% {
+		opacity: 0;
+		-webkit-transform:  translate(0px,0px) scale(1);
+	}
+	10% {
+		opacity:0.7;
+		-webkit-transform:  translate(0px,0px) scale(1);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform:   translate(0px,0px) scale(1.5);
+	}
+}
+
+.anime03 .star {
+	-webkit-animation-name: star_motion;
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-delay: 0.20s;
+}
+
+
+</style>
+<!--CSSのおわり-->
+
+<!-- jQuery を読み込んでおいてね -->
+<!--<script type="text/javascript"
+// src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>-->
+
+</head>
+
+<!--HTMLのはじまり-->
+<body>
+
+<div class="btn"></div>
+
+<div class="anime03">
+	<div class="star"></div>
+</div>
+
+<!--JSのはじまり-->
+<!--<script type="text/javascript">
+// var isTouch = ('ontouchstart' in window);
+// $('.btn').bind({
+// 'touchstart mousedown': function(e) {
+// },
+// 'touchend mouseup': function(e) {
+// $('.btn').addClass('anime02');
+// }
+// });
+// $('.btn')[0].addEventListener('webkitTransitionEnd', function (e) {
+// 	$(this).removeClass('anime02');
+// });
+// </script>
+<!--JSのおわり-->
+</body>
+<!--HTMLのおわり-->
+
+</html>
