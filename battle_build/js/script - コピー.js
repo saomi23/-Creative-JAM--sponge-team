@@ -54,7 +54,7 @@
 	// 	}
 	// };
 
-	var builtbtn = document.getElementsByClassName("builtbtn_img");
+	var builtbtn = document.getElementsByClassName("builtbtn");
 	builtbtn[0].addEventListener('click',function(){
 
 		var comment = document.getElementById("commentbox").value;
