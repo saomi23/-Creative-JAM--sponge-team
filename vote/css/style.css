@@ -3,6 +3,7 @@ section#h2 {
 	height: 39px;
 	background-image: url(../images/h2_bg.png);
 	background-size: 320px,39px;
+	margin-top:25px;
 }
 
 h3 {
