@@ -20,10 +20,12 @@
 
 	function setEvents () {
 		//iconNameLeft
-		iconNameLeft.addEventListener("touchstart", function(e) {
+		iconNameLeft.addEventListener("click", function(e) {
 			iconNameLeftBg.className = "icon_name_bg_l_on";
+			location.href = "../comment_list/index.html?vs1"
 		});
-		iconNameLeft.addEventListener("touchmove", function(e) {
+		/*
+iconNameLeft.addEventListener("touchmove", function(e) {
 			iconNameLeftBg.className = "icon_name_bg_l";
 		});
 		iconNameLeft.addEventListener("touchend", function(e) {
@@ -31,11 +33,14 @@
 				location.href = "../comment_list/index.html?vs1"
 			}
 		});
+*/
 		
 		//iconNameRight
-		iconNameRight.addEventListener("touchstart", function(e) {
+		iconNameRight.addEventListener("click", function(e) {
 			iconNameRightBg.className = "icon_name_bg_r_on";
+			location.href = "../comment_list/index.html?vs2"
 		});
+/*
 		iconNameRight.addEventListener("touchmove", function(e) {
 			iconNameRightBg.className = "icon_name_bg_r";
 		});
@@ -44,6 +49,7 @@
 				location.href = "../comment_list/index.html?vs2"
 			}
 		});
+*/
 		
 	}
 
