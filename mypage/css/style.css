@@ -13,11 +13,11 @@ section#user_info p {
 }
 
 p#name {
-	color: #4a658e;
+	color: #fff;
 }
 
 p#id {
-	color: #fff;
+	color: #c0c0c0;
 	margin-left:36px;
 }
 
