@@ -144,7 +144,8 @@
 		elementLi.innerHTML = createString(arr[i]);
 		// elementLi.appendChild(battleCardInnerHtml);
 		var objBody = document.getElementById("sort_new");
-		objBody.appendChild(elementLi);
+		objBody.insertBefore(elementLi,objBody.firstChild );
+/* 		objBody.appendChild(elementLi); */
 	}
 
 	// ウェブストレージに対応している	
