@@ -22,13 +22,15 @@
 		//iconNameLeft
 		iconNameLeft.addEventListener("click", function(e) {
 			iconNameLeftBg.className = "icon_name_bg_l_on";
-			location.href = "../comment_list/index.html?vs1"
+			setTimeout(function(){location.href = "../comment_list/index.html?vs1"},500);
 		});
-		/*
-iconNameLeft.addEventListener("touchmove", function(e) {
+/*
+		iconNameLeft.addEventListener("onMouseMove", function(e) {
 			iconNameLeftBg.className = "icon_name_bg_l";
 		});
-		iconNameLeft.addEventListener("touchend", function(e) {
+*/
+/*
+		iconNameLeft.addEventListener("onMouseUp", function(e) {
 			if (iconNameLeftBg.className === "icon_name_bg_l_on") {
 				location.href = "../comment_list/index.html?vs1"
 			}
@@ -38,13 +40,15 @@ iconNameLeft.addEventListener("touchmove", function(e) {
 		//iconNameRight
 		iconNameRight.addEventListener("click", function(e) {
 			iconNameRightBg.className = "icon_name_bg_r_on";
-			location.href = "../comment_list/index.html?vs2"
+			setTimeout(function(){location.href = "../comment_list/index.html?vs2"},500);
 		});
 /*
-		iconNameRight.addEventListener("touchmove", function(e) {
+		iconNameRight.addEventListener("mousemove", function(e) {
 			iconNameRightBg.className = "icon_name_bg_r";
 		});
-		iconNameRight.addEventListener("touchend", function(e) {
+*/
+/*
+		iconNameRight.addEventListener("mouseup", function(e) {
 			if (iconNameRightBg.className === "icon_name_bg_r_on") {
 				location.href = "../comment_list/index.html?vs2"
 			}
