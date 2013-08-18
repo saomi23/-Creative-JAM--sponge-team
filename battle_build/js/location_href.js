@@ -36,7 +36,10 @@
 		//作成ボタン
 		builtbtnEl.addEventListener("click", function(e) {
 			builtbtnBg.className = "builtbtn_img_on";
-			setTimeout(function(){location.href = "../battle_list/index.html"},500);
+			setTimeout(function(){
+				location.href = "../battle_list/index.html"
+				builtbtnBg.className = "builtbtn_img";
+			},500);
 		});
 		
 /*

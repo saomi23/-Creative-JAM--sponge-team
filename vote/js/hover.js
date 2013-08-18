@@ -40,7 +40,10 @@
 		//iconNameRight
 		iconNameRight.addEventListener("click", function(e) {
 			iconNameRightBg.className = "icon_name_bg_r_on";
-			setTimeout(function(){location.href = "../comment_list/index.html?vs2"},500);
+			setTimeout(function(){
+				location.href = "../comment_list/index.html?vs2"
+				iconNameRightBg.className = "icon_name_bg_r";
+			},500);
 		});
 /*
 		iconNameRight.addEventListener("mousemove", function(e) {
