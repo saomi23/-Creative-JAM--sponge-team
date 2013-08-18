@@ -121,41 +121,6 @@ div:nth-child(3) {
 }
 
 
-/* フッターナビ */
-
-#footer {
-	width: 100%;
-    margin:0px auto;
-    bottom : 0px;
-}
-
-#footer ul li {
-	float: left;
-	list-style: none;
-	width: 80px;
-	height: 44px;
-}
-
-#footer ul li:nth-child(1) {
-	background-image:url(../images/ftli_01.png);
-	background-size: 80px,44px;
-}
-
-#footer ul li:nth-child(2) {
-	background-image:url(../images/ftli_02.png);
-	background-size: 80px,44px;
-}
-
-#footer ul li:nth-child(3) {
-	background-image:url(../images/ftli_03.png);
-	background-size: 80px,44px;
-}
-
-#footer ul li:nth-child(4) {
-	background-image:url(../images/ftli_04.png);
-	background-size: 80px,44px;
-}
-
 .num1 {
 	width: 105px;
 	height: 10px;
