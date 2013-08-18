@@ -34,17 +34,20 @@
 
 	function setEvents () {
 		//作成ボタン
-		builtbtnEl.addEventListener("mousedown", function(e) {
+		builtbtnEl.addEventListener("click", function(e) {
 			builtbtnBg.className = "builtbtn_img_on";
+			location.href = "../battle_list/index.html"
 		});
+/*
 		builtbtnEl.addEventListener("mousemove", function(e) {
 			builtbtnBg.className = "builtbtn_img";
 		});
-		builtbtnEl.addEventListener("mouseup", function(e) {
+		builtbtnEl.addEventListener("mousemove", function(e) {
 			if (builtbtnBg.className === "back_img") {
 				location.href = "../battle_list/index.html"
 			}
 		});
+*/
 
 	}
 
