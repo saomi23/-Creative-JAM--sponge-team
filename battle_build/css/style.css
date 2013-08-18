@@ -256,6 +256,26 @@ section#h3 {
 	top: 40px;
 }
 
+
+/* コメント入力欄 */
+
+h3 {
+	text-align: center;
+	font-size: 14px;
+}
+
+#commentbox {
+	width: 281px;
+}
+
+
+/* 調整 */
+
+div:nth-child(3) {
+	padding:20px 0;
+}
+
+
 /* フッターナビ */
 
 #footer {
