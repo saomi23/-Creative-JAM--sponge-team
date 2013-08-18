@@ -125,6 +125,11 @@ h2 {
 　　　　　　　　　　　フッター
 */
 
+div#footer_top {
+	width: 320px;
+	height: 50px;
+}
+
 ul#footer {
 	width: 320px;
     margin:0px auto;
@@ -160,26 +165,26 @@ div.ftli01_bg_on {
 
 li#ftli02 {
 	width: 106px;
-	height: 44px;
+	height: 43px;
 }
 
 div#ft02 {
 	width: 106px;
-	height: 44px;
+	height: 43px;
 }
 
 div.ftli02_bg {
 	width: 106px;
-	height: 44px;
+	height: 43px;
 	background-image:url(../images/ftli_02.png);
-	background-size: 106px,44px;
+	background-size: 106px,43px;
 }
 
 div.ftli02_bg_on {
 	width: 106px;
-	height: 44px;
+	height: 43px;
 	background-image:url(../images/ftli_02_on.png);
-	background-size: 106px,44px;
+	background-size: 106px,43px;
 }
 
 li#ftli03 {

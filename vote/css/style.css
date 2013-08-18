@@ -1,3 +1,14 @@
+section#h3 {
+	width: 320px;
+	height: 39px;
+	background-image: url(../images/h2_bg.png);
+	background-size: 320px,39px;
+}
+
+h3 {
+	color: #fff;
+}
+
 /* vs 画像 */
 
 #vs {

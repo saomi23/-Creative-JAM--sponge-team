@@ -48,7 +48,7 @@
 		});
 		backBtnEl.addEventListener("touchend", function(e) {
 			if (backBtnIconEl.className === "back_img_on") {
-				location.href = "../battle_build/index.html"
+				history.back();
 			}
 		});
 		
