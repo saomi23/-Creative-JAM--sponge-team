@@ -1,6 +1,12 @@
 * {
 	margin:0;
 	padding:0;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
 }
 
 body {
@@ -57,12 +63,10 @@ h1 {
 	text-align: left;
 	font-size: 16px;
 	position: relative;
-/* 	left: 37%; */
 	float: left;
 	margin: 0;
-	padding-left: 28px;
 	text-align: center;
-
+	width: 180px;
 }
 
 h2 {
@@ -109,44 +113,16 @@ h2 {
 	position: absolute;
 	width: 67px;
 	height: 88px;
-	background-image: url(../images/h_back.png);
+	background-image: url(../images/h_back_on.png);
 	background-size: 67px,88px;
 	background-repeat: no-repeat;
 }
 
-/* バトル新規作成ボタン */
-
-#build {
-	position: relative;
-	float:right;
-	width: 70px;
-	height: 48px;
-}
-
-.build_img {
-	margin-top: 5px;
-	position: absolute;
-	right: 6px;
-	width: 60px;
-	height: 35px;
-	background-image: url(../images/h_build.png);
-	background-size: 60px,35px;
-}
-
-.build_img_on {
-	margin-top: 5px;
-	position: absolute;
-	right: 6px;
-	width: 60px;
-	height: 35px;
-	background-image: url(../images/h_build_on.png);
-	background-size: 60px,35px;
-}
 
 /* #user_info */
 
 section#user_info {
-	width: 298px;
+	width: 284px;
 	padding: 0 18px;
 	display: -webkit-box;
 }
@@ -398,27 +374,87 @@ hr {
 /* フッター */
 
 ul#footer {
-	width: 100%;
+	width: 320px;
     margin:0px auto;
     height: 43px;
     bottom : 0px;
     position: fixed;
+    display: -webkit-box;
 }
 
-li#ftli01 {
+div#ftli01 {
+	width: 107px;
+	height: 43px;
+}
+
+div#ft01 {
+	width: 107px;
+	height: 43px;
+}
+
+div.ftli01_bg {
+	width: 107px;
+	height: 43px;
+	background-image:url(../images/ftli_01.png);
+	background-size: 107px,43px;
+}
+
+div.ftli01_bg_on {
+	width: 107px;
+	height: 43px;
 	background-image:url(../images/ftli_01_on.png);
-	background-size: 80px,43px;
+	background-size: 107px,43px;
 }
 
 li#ftli02 {
+	width: 106px;
+	height: 44px;
+}
+
+div#ft02 {
+	width: 106px;
+	height: 44px;
+}
+
+div.ftli02_bg {
+	width: 106px;
+	height: 44px;
 	background-image:url(../images/ftli_02.png);
-	background-size: 80px,44px;
+	background-size: 106px,44px;
+}
+
+div.ftli02_bg_on {
+	width: 106px;
+	height: 44px;
+	background-image:url(../images/ftli_02_on.png);
+	background-size: 106px,44px;
 }
 
 li#ftli03 {
-	background-image:url(../images/ftli_03.png);
-	background-size: 80px,44px;
+	width: 107px;
+	height: 43px;
 }
+
+div#ft03 {
+	width: 107px;
+	height: 43px;
+}
+
+div.ftli03_bg {
+	width: 107px;
+	height: 43px;
+	background-image:url(../images/ftli_03.png);
+	background-size: 107px,43px;
+}
+
+div.ftli03_bg_on {
+	width: 107px;
+	height: 43px;
+	background-image:url(../images/ftli_03_on.png);
+	background-size: 107px,43px;
+}
+
+
 
 
 /* float */

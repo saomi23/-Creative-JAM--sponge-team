@@ -4,9 +4,17 @@
 	var backBtnEl      = null;
 	var backBtnIconEl  = null;
 	
-	//buildBtn
-	var buildBtnEl     = null;
-	var buildBtnIconEl = null;
+	//footer1
+	var footer1     = null;
+	var footer1Bg   = null;
+	
+	//footer2
+	var footer2     = null;
+	var footer2Bg   = null;
+	
+	//footer3
+	var footer3     = null;
+	var footer3Bg   = null;
 
 	function cacheDOMs () {
 		//backBtn
@@ -16,6 +24,18 @@
 		//buildBtn		
 		buildBtnEl     = document.getElementById('build');
 		buildBtnIconEl = document.getElementById('h_build');
+		
+		//footer1
+		footer1        = document.getElementById('ftli01');
+		footer1Bg      = document.getElementById('ft01');
+		
+		//footer2
+		footer2        = document.getElementById('ftli02');
+		footer2Bg      = document.getElementById('ft02');
+		
+		//footer3
+		footer3        = document.getElementById('ftli03');
+		footer3Bg      = document.getElementById('ft03');
 	};
 
 	function setEvents () {
@@ -32,16 +52,16 @@
 			}
 		});
 		
-		//buildBtn
-		buildBtnEl.addEventListener("touchstart", function(e) {
-			buildBtnIconEl.className = "build_img_on";
+		//footer1
+		footer1.addEventListener("touchstart", function(e) {
+			footer1Bg.className = "ftli01_bg_on";
 		});
-		buildBtnEl.addEventListener("touchmove", function(e) {
-			buildBtnIconEl.className = "build_img";
+		footer1.addEventListener("touchmove", function(e) {
+			footer1Bg.className = "ftli01_bg";
 		});
-		buildBtnEl.addEventListener("touchend", function(e) {
-			if (buildBtnIconEl.className === "build_img_on") {
-				location.href = "../battle_build/index.html"
+		footer1.addEventListener("touchend", function(e) {
+			if (footer1Bg.className === "ftli01_bg_on") {
+				location.href = "../battle_list/index.html"
 			}
 		});
 	}
