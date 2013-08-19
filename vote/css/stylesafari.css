@@ -1,0 +1,171 @@
+body {
+	background-position: center -50px;
+}
+
+section#h2 {
+	width: 320px;
+	height: 39px;
+	background-image: url(../images/h2_bg.png);
+	background-size: 320px,39px;
+	margin-top:25px;
+}
+
+h3 {
+	color: #fff;
+}
+
+/* vs 画像 */
+
+#vs {
+	width: 288px;
+	overflow: hidden;
+	padding: 28px 16px 0 16px;
+}
+
+#vs_left {
+	width: 102px;
+	float: left;
+}
+
+#vs_right {
+	width: 102px;
+	float: right;
+/* 	padding-top: 27px; */
+}
+
+#icon_shadow {
+	box-shadow: 0px 0px 20px #ccc;
+}
+
+#icon1_frame {
+	width: 102px;
+	height: 102px;
+	background-image: url(../images/icon1.png);
+	background-size: 102px,102px;
+}
+
+#vs_left #icon1_frame {
+	text-align: left;
+}
+
+#vs_right #icon1_frame {
+	text-align: right;
+}
+
+#icon1 {
+	width: 102px;
+	height: 102px;
+	background-image: url(../images/safari.jpg);
+	background-size: 81px, 81px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#icon2 {
+	width: 102px;
+	height: 102px;
+	background-image: url(../images/googlechrome.jpg);
+	background-size: 81px, 81px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+/* vs name */
+
+#icon_box {
+	width: 288px;
+	min-height: 43px;
+	overflow: hidden;
+	padding: 15px 16px 0 16px;
+}
+
+#name_l,#name_r {
+	width: 144px;
+	height: 43px;
+	float:left;
+}
+
+#name_l {
+	float:left;
+}
+
+#name_r {
+	float:right;
+}
+
+#icon_name_l,#icon_name_r {
+	width: 144px;
+	height: 43px;
+	background-size:144px,43px;
+	background-repeat:no-repeat;
+}
+
+#icon_name_l {
+	/* float:left; */
+	text-align: left;
+}
+
+#icon_name_r {
+	/* float:right; */
+	text-align: right;
+}
+
+.icon_name_bg_l {
+	width: 144px;
+	height: 43px;
+	background-image:url(../images/icon_name_l.png);
+	background-repeat: no-repeat;
+	background-size: 144px,43px;
+}
+
+.icon_name_bg_l_on {
+	width: 144px;
+	height: 43px;
+	background-image:url(../images/icon_name_l_on.png);
+	background-repeat: no-repeat;
+	background-size: 144px,43px;
+}
+
+.icon_name_bg_r {
+	width: 144px;
+	height: 43px;
+	background-image:url(../images/icon_name_r.png);
+	background-repeat: no-repeat;
+	background-size: 144px,43px;
+}
+
+.icon_name_bg_r_on {
+	width: 144px;
+	height: 43px;
+	background-image:url(../images/icon_name_r_on.png);
+	background-repeat: no-repeat;
+	background-size: 144px,43px;
+}
+
+
+#icon_name_l span,#icon_name_r span {
+	font-size:12px;
+	color: #fff;
+	line-height: 3.5;
+}
+
+#icon_name_l span {
+	text-align: left;
+	padding-left: 20px;
+}
+
+#icon_name_r span {
+	text-align: right;
+	padding-right:20px;
+}
+
+.name_input {
+	width: auto;
+	float: right;
+	position: absolute;
+	top: 131px;
+	left: 252px;
+	text-align: left;
+	color: #fff;
+}

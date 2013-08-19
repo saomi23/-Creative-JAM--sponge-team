@@ -144,7 +144,7 @@
 		elementLi.innerHTML = createString(arr[i]);
 		// elementLi.appendChild(battleCardInnerHtml);
 		var objBody = document.getElementById("sort_new");
-		objBody.insertBefore(elementLi,objBody.firstChild );
+		objBody.insertBefore(elementLi,objBody[0]);
 /* 		objBody.appendChild(elementLi); */
 	}
 
@@ -160,4 +160,27 @@
 		// 	addElement();
 		// }
 	// },false);
+
+	var vsEl = document.getElementsByClassName("vs");
+	vsEl[0].addEventListener('click',function(){
+		location.href = "../vote/indexkinoko.html";
+	});
+	vsEl[1].addEventListener('click',function(){
+		location.href = "../vote/indexsafari.html";
+	});
+	vsEl[2].addEventListener('click',function(){
+		location.href = "../vote/indexyuko.html";
+	});
+	var vsEl2 = document.getElementById("vskinoko");
+	vsEl2.addEventListener('click',function(){
+		location.href = "../vote/indexkinoko.html";
+	})
+	var vsEl3 = document.getElementById("vssafari");
+	vsEl3.addEventListener('click',function(){
+		location.href = "../vote/indexsafari.html";
+	})
+	var vsEl4 = document.getElementById("vsyuko");
+	vsEl4.addEventListener('click',function(){
+		location.href = "../vote/indexyuko.html";
+	})
 })();
