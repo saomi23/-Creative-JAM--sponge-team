@@ -9,7 +9,7 @@
 	-khtml-user-drag: none;
 }
 
-input,textarea {
+input {
 	user-select: auto;
 	-moz-user-select: auto;
 	-webkit-user-select: auto;
@@ -136,7 +136,7 @@ h2 {
 
 div#footer_top {
 	width: 320px;
-	height: 100px;
+	height: 50px;
 }
 
 ul#footer {

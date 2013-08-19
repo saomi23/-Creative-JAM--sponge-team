@@ -1,44 +1,7 @@
 
 
-* {
-	margin:0;
-	padding:0;
-}
-
-body {
-	width: 320px; 
-	height: auto;
-	font-size: 12px;
-	font-family: "Helvetica-Light", "Helvetica Light", "Helvetica", Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	line-height: 26pt;
-	letter-spacing:2px;
-	color: #2c2c2c;
-	margin: 0 auto 0 auto;
-}
-
-section {
-	margin:0;
-	padding:0;
-}
-
 /* 見出し（hタグ） */
 
-h1,h2 {
-	color:#fff;
-}
-
-div#title {
-	width: 180px;
-	display: block;
-	float: left;
-	position: relative;
-	left: 42%;
-	float: left;
-	margin: 0;
-	padding: 0;
-	margin-top:2px;
-}
 
 h1 {
 	display: block;
@@ -47,10 +10,9 @@ h1 {
 	margin-right: auto;
 	color: #000;
 	text-shadow: 1px 1px 3px #5e5f66;
-	text-align: left;
+	text-align: center;
 	font-size: 16px;
 	position: relative;
-	left: -50%;
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -94,73 +56,6 @@ h2 p:nth-child(2) span {
 }
 
 
-
-/* ボックス */
-
-#header {
-	margin:0;
-	min-height: 48px;
-	background: url(../images/h1.jpg) no-repeat;
-	background-size: 320px,48px;
-	position:relative;
-	overflow:hidden;
-}
-
-.back {
-	position: relative;
-	width: 70px;
-	height: 48px;
-	float:left;
-}
-
-.back_img {
-	margin-top: 5px;
-	position: absolute;
-	left: 9px;
-	width: 60px;
-	height: 35px;
-	background-image: url(../images/h_back.png);
-	background-size: 60px,35px;
-	background-repeat: no-repeat;
-}
-
-.back_img_on {
-	margin-top: 5px;
-	position: absolute;
-	left: 9px;
-	width: 60px;
-	height: 35px;
-	background-image: url(../images/h_back_on.png);
-	background-size: 60px,35px;
-	background-repeat: no-repeat;
-}
-
-.build {
-	position: relative;
-	float:right;
-	width: 70px;
-	height: 48px;
-}
-
-.build_img {
-	margin-top: 5px;
-	position: absolute;
-	right: 6px;
-	width: 60px;
-	height: 35px;
-	background-image: url(../images/h_build.png);
-	background-size: 60px,35px;
-}
-
-.build_img_on {
-	margin-top: 5px;
-	position: absolute;
-	right: 6px;
-	width: 60px;
-	height: 35px;
-	background-image: url(../images/h_build_on.png);
-	background-size: 60px,35px;
-}
 
 
 /* vs 画像 */
@@ -213,18 +108,30 @@ h2 p:nth-child(2) span {
 
 .vs1 #icon_shadow1 {
 	box-shadow: 0px 0px 20px #ccc;
+	position: relative;
 }
 
 .vs1 #icon_shadow2 {
 	box-shadow: 0px 0px 0px red;
+	position: relative;
 }
 
 .vs2 #icon_shadow1 {
 	box-shadow: 0px 0px 0px red;
+	position: relative;
 }
 
 .vs2 #icon_shadow2 {
 	box-shadow: 0px 0px 20px #ccc;
+	position: relative;
+}
+
+
+/* カウンター固定 */
+
+.fixed {
+	position: fixed;
+	top:0px
 }
 
 
@@ -383,7 +290,6 @@ span#mincho {
 	height: 43px;
 	background-size: 43px,43px;
 	float: left;
-	background-color: #b24444;
 }
 
 .com_r {
@@ -399,7 +305,7 @@ span#mincho {
 
 #comment_list {
 	width: 100%;
-	height: 1000px;
+	height: auto;
 }
 
 .comment_l,.comment_r {
@@ -407,9 +313,11 @@ span#mincho {
 }
 
 .comment_l .com_l {
-margin-right: 16px;
+	margin-right: 16px;
+	background-image: url(../images/kinoko.png);
 }
 
+/*
 #comment_list hr {
 	height: 1px;
 	background-color: #000;
@@ -419,6 +327,7 @@ margin-right: 16px;
 	margin:0;
 	clear:both;
 }
+*/
 
 
 .username {
@@ -461,32 +370,89 @@ div.btn{
 	float: right;
 }
 
-div.negaeru {
+/*div.negaeru {
+	width: 68px;
+	height: 28px;
+	background-image:url(../images/negaeru.png);
+	background-size: 68px,28px;
+	float:right;
+}*/
+
+li.comment_left,li.comment_right {
+	clear:both;
+	padding: 5px 0;
+	border-top: 1px solid #303030;
+}
+
+
+div.negaeru_on {
+	width: 68px;
+	height: 28px;
+	background-image:url(../images/negaeru_on.png);
+	background-size: 68px,28px;
+	float:right;
+}
+
+.vs1 li.comment_left div.negaeru{
+	display: none;
+}
+.vs1 li.comment_left div.hagedou{
+	display: block;
+	width: 68px;
+	height: 26px;
+	background-image: url(../images/hagedou.png);
+	background-size: 68px,26px;
+	float: right;
+}
+.vs1 li.comment_right div.negaeru{
+	display: block;
+	width: 68px;
+	height: 26px;
+	background-image:url(../images/negaeru.png);
+	background-size: 68px,26px;
+	float:right;
+}
+.vs1 li.comment_right div.hagedou{
+	display: none;	
+}
+.vs1 li.comment_right div.hagedou_on{
+	display: none;	
+}
+.vs2 li.comment_left div.negaeru{
 	width: 68px;
 	height: 28px;
 	background-image:url(../images/negaeru.png);
 	background-size: 68px,28px;
 	float:right;
 }
-
-div.negaeru_on {
-	background-image:url(../images/negaeru_on.png);
+.vs2 li.comment_left div.hagedou{
+	display: none;
 }
-
-div.hagedou,div.hagedou_on {
+.vs2 li.comment_left div.hagedou_on{
+	display: none;
+}
+.vs2 li.comment_right div.negaeru{
+	0px 0px 0px;	
+}
+.vs2 li.comment_right div.hagedou{
 	width: 68px;
-	height: 28px;
-	background-image: url(../images/hagedou.png);
-	background-size: 68px,28px;
-	float: right;
+	height: 26px;
+	background-image:url(../images/hagedou.png);
+	background-size: 68px,26px;
+	float:right;
 }
 
 div.hagedou_on {
+	width: 68px;
+	height: 26px;
 	background-image: url(../images/hagedou_on.png);
+	background-size: 68px,26px;
+	float: right;
 }
 
 .comment_r .com_l {
 	float: right;
+	background-image: url(../images/takenoko.png);
 }
 
 
@@ -500,7 +466,42 @@ div#input_com input {
 	margin-bottom:100px
 }
 
+form {
+	clear:both;
+	display: -webkit-box;
+	padding:6px;
+	position: fixed;
+	bottom:-16px;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #1c1c1c), color-stop(1.00, #1c1c1c), color-stop(0.00, #636363));
+	background: -webkit-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
+	background: -moz-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
+	background: -o-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
+	background: -ms-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
+	background: linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
+	background-size:320px,45px;
+	width: 308px;
+	height: 45px;
+	background-repeat:no-repeat;
+}
 
+input#submitBtn {
+	width: 45px;
+	height: 29px;
+	padding:2px;
+	background-color:#000;
+	color: #fff;
+	border: none;
+	-webkit-border-radius:6px;
+	vertical-align: 16px;
+}
+
+textarea {
+	width: 240px;
+	margin-bottom: 6px;
+}
+
+
+/* カウンター */
 
 .num1 {
 	width: 100px;
@@ -521,17 +522,3 @@ div#input_com input {
 	line-height: 1.4;
 }
 
-/* float */
-
-left {
-
-	float: left;
-}
-
-right {
-	float: right;
-}
-
-clear {
-	clear:both;
-}
