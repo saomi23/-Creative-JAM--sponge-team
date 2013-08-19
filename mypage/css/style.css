@@ -166,9 +166,9 @@ section#favorite {
 }
 
 .icon1,.icon2 {
-	width: 60px;
-	height: 60px;
-	background-size: 55px, 55px;
+	width: 62px;
+	height: 64px;
+	background-size: 57px, 59px;
 	background-repeat: no-repeat;
 	background-position: center center;
 }
