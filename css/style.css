@@ -1,0 +1,82 @@
+body {
+	width: 320px;
+	height: 568px;
+	background-image:url(../images/bg.png);
+	background-size:320px,568px;
+	position: relative;
+}
+
+div#wrapper {
+	height: 568px;
+}
+
+
+/* #user_info */
+
+section#user_info {
+	width: 284px;
+	padding: 0 18px;
+	display: -webkit-box;
+}
+
+section#user_info p {
+	font-size:15px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+}
+
+p#name {
+	color: #fff;
+}
+
+p#id {
+	color: #c0c0c0;
+	margin-left:36px;
+}
+
+/* スタート画面 */
+
+section#startEl {
+	width: 140px;
+	height: 110px;
+	background-image:url(../images/start_bg.png);
+	background-size: 140px,110px;
+	margin: 280px auto;
+	position: relative;
+}
+
+div#start {
+	width: 106px;
+	height: 36px;
+}
+
+div#startBtn {
+	width: 106px;
+	height: 36px;
+	position: absolute;
+	background-repeat: no-repeat;
+	top: 35px;
+	left: 16px;
+}
+
+div.start_bg {
+	background-image: url(../images/startbtn.png);
+	background-size: 106px,36px;
+}
+
+div.start_bg_on {
+	background-image: url(../images/startbtn_on.png);
+	background-size: 106px,36px;
+}
+
+
+/* フッター */
+
+section#footer {
+	width: 320px;
+	height: 43px;
+	background-image:url(../images/f_bg.png);
+	background-size:320px,43px;
+	top: 525px;
+	position: absolute;
+}

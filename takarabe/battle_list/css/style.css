@@ -1,0 +1,277 @@
+/* バトル新規作成ボタン */
+
+#build {
+	position: relative;
+	float:right;
+	width: 70px;
+	height: 48px;
+}
+
+.build_img {
+	margin-top: 5px;
+	position: absolute;
+	right: 6px;
+	width: 60px;
+	height: 35px;
+	background-image: url(../images/h_build.png);
+	background-size: 60px,35px;
+}
+
+.build_img_on {
+	margin-top: 5px;
+	position: absolute;
+	right: 6px;
+	width: 60px;
+	height: 35px;
+	background-image: url(../images/h_build_on.png);
+	background-size: 60px,35px;
+}
+
+
+/* バトルリスト ソート */
+
+#sort {
+	width: auto;
+	height: auto;
+	position: relative;
+}
+
+ul#sort_new,ul#sort_passion {
+	position: relative;
+}
+
+ul#sort_new {
+	background-image:url(../images/sort_bg_1.png);
+	display: block;
+	width: 320px;
+}
+
+ul#sort_passion {
+	display: none;
+}
+
+div#sort ul.sort {
+	display: block;
+	background-image:url(../images/sort_bg_1.png);
+	display: block;
+	width: 320px;
+}
+
+div#sort ul.sort_none {
+	display: none;
+}
+
+/* タブ */
+
+nav {
+	width: 320px;
+	display: -webkit-box;
+}
+
+#tab_new {
+	position: relative;
+	width: 160px;
+	height: 42px;
+}
+
+#tab_passion {
+	position: relative;
+	width: 160px;
+	height: 42px;
+}
+
+#tab_new p {
+	position: absolute;
+	top: 7px;
+	color: #fff;
+	margin: 0 auto;
+	left: 60px;
+	font-weight: bold;
+}
+
+#tab_passion p {
+	position: absolute;
+	top: 7px;
+	color: #fff;
+	margin: 0 auto;
+	left: 60px;
+	font-weight: bold;
+}
+
+.tab_bg_l {
+	width: 160px;
+	height: 42px;
+	-webkit-border-top-right-radius: 6px;
+	background-color:#46506d;
+	opacity: 0.6;
+}
+
+.tab_bg_r {
+	width: 160px;
+	height: 42px;
+	-webkit-border-top-left-radius: 6px;
+	background-color:#46506d;
+	opacity: 0.6;
+}
+
+.tab_bg_none {
+	width: 160px;
+	height: 42px;
+	background-color: transparent;
+}
+
+/* vs 画像 */
+.vs {
+	width: 293px;
+	overflow: hidden;
+	padding: 5px 2px 5px 25px;
+	clear: both;
+	background-image: url(../images/arrow.png);
+	background-position: right center;
+	background-size: 10px,12px;
+	background-repeat: no-repeat;
+	border-bottom:1px solid #000;
+	box-shadow: 0px 1px 0 #606060;
+}
+
+.box {
+	display: -webkit-box;
+}
+
+
+
+.vs_img {
+	width: 33px;
+	background-image: url(../images/vs_tx_bg.png);
+	background-repeat: no-repeat;
+	background-size: 33px,30px;
+	height: 18px;
+	margin: 0 auto 3px auto;
+}
+
+.vs_left {
+	width: 65px;
+}
+
+.vs_right {
+	width: 65px;
+}
+
+.icon1_frame{
+	width: 65px;
+	height: 66px;
+	background-image: url(../images/icon_frame.png);
+	background-size: 66px,65px;
+}
+
+.icon2_frame {
+	width: 65px;
+	height: 66px;
+	background-image: url(../images/icon_frame.png);
+	background-size: 66px,65px;
+}
+
+.vs_left #icon1_frame {
+	text-align: left;
+}
+
+.vs_right #icon2_frame {
+	text-align: right;
+}
+
+.icon1 {
+	width: 60px;
+	height: 60px;
+	background-size: 55px, 55px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.icon2 {
+	width: 60px;
+	height: 60px;
+	background-size: 55px, 55px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.icon1 {
+	background-image: url(../images/kinoko.png);
+}
+
+.icon2 {
+	background-image: url(../images/takenoko.png);
+}
+
+.num1 {
+	width: 105px;
+	height: 10px;
+	margin-top: 6px;
+}
+
+.num2 {
+	width: 105px;
+	height: 10px;
+	margin-top: 6px;
+}
+
+.num1 div {
+	width: 16px;
+	height: 16px;
+	color:#fff;
+	font-weight: normal;
+	font-size:10px;
+	float:left;
+	background-image: url(../images/num_bg.png);
+	background-size:16px,16px;
+	line-height: 1.4;
+}
+
+.num2 div {
+	width: 16px;
+	height: 16px;
+	color:#fff;
+	font-weight: normal;
+	font-size:10px;
+	float:left;
+	background-image: url(../images/num_bg.png);
+	background-size:16px,16px;
+	line-height: 1.4;
+}
+
+.vs_title {
+	width: 138px;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.vs_comment{
+	font-size:10px;
+	color:#fff;
+	margin: 0;
+	padding: 0;
+	line-height: 1.7;
+	clear:both;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 16px;
+	padding-top: 4px;
+}
+
+hr {
+	height: 1px;
+	background-color: #000;
+	border: none;
+	color: #000;
+	box-shadow: 0px 1px 0 #606060;
+	margin: 0;
+	clear: both;
+}
+
+.arrow_bg {
+	background-image:url(../images/arrow.png);
+	background-position:right center;
+	right: 10px;
+	background-size:10px,12px;
+	background-repeat:no-repeat;
+}
