@@ -351,14 +351,14 @@ span#mincho {
 	width: 80px;
 }
 
-div.answer {
+/*div.answer {
 	width: 45px;
 	height: 17px;
 	background-image:url(../images/answer.png);
 	background-size: 45px,17px;
 	float: left;
 	display: none;
-}
+}*/
 
 div.data {
 	color: #9a9a9a;
@@ -413,10 +413,10 @@ div.negaeru_on {
 	float:right;
 }
 .vs1 li.comment_right div.hagedou{
-	display: none;	
+	display: none;
 }
 .vs1 li.comment_right div.hagedou_on{
-	display: none;	
+	display: none;
 }
 .vs2 li.comment_left div.negaeru{
 	width: 68px;
@@ -432,7 +432,7 @@ div.negaeru_on {
 	display: none;
 }
 .vs2 li.comment_right div.negaeru{
-	0px 0px 0px;	
+	0px 0px 0px;
 }
 .vs2 li.comment_right div.hagedou{
 	width: 68px;
@@ -473,7 +473,7 @@ form {
 	display: -webkit-box;
 	padding:6px;
 	position: fixed;
-	bottom:-16px;
+	bottom: 27px;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #1c1c1c), color-stop(1.00, #1c1c1c), color-stop(0.00, #636363));
 	background: -webkit-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
 	background: -moz-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);

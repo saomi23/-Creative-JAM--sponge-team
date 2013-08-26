@@ -25,7 +25,7 @@
 	// 	    element3 = document.createElement('div');
 	// 	    element3.className = "container_div";
 	// 	    element3.innerHTML = "";
-	// 	    element3.style.backgroundColor = '';		    
+	// 	    element3.style.backgroundColor = '';
 	// 	    element4 = document.createElement('div');
 	// 	    element4.className = "icon2_div";
 	// 	    element4.src = "";
@@ -42,7 +42,7 @@
 	// 	    element7 = document.createElement('span');
 	// 	    element7.className = "comment_container";
 	// 	    element7.innerHTML = arr[i].comment;
-	// 	    element7.style.backgroundColor = '';		    		    
+	// 	    element7.style.backgroundColor = '';
 	// 	    element8 = document.createElement('span');
 	// 	    element8.className = "date";
 	// 	    element8.innerHTML = "";
@@ -50,7 +50,7 @@
 	// 	    element9 = document.createElement('span');
 	// 	    element9.className = "passion";
 	// 	    element9.innerHTML = "";
-	// 	    element9.style.backgroundColor = '';		    
+	// 	    element9.style.backgroundColor = '';
 	// 	    element10 = document.createElement('img');
 	// 	    element10.className = "icon2";
 	// 	    element10.src = arr[i].img2;
@@ -74,11 +74,11 @@
 	// 		var objBody7 = document.getElementsByClassName("container_div").item(i);
 	// 		objBody7.appendChild(element7);
 	// 		var objBody8 = document.getElementsByClassName("container_div").item(i);
-	// 		objBody8.appendChild(element8);	
+	// 		objBody8.appendChild(element8);
 	// 		var objBody9 = document.getElementsByClassName("container_div").item(i);
-	// 		objBody9.appendChild(element9);			
+	// 		objBody9.appendChild(element9);
 	// 		var objBody10 = document.getElementsByClassName("icon2_div").item(i);
-	// 		objBody10.appendChild(element10);																				
+	// 		objBody10.appendChild(element10);
 	// 	}
 
 	// var obj = {
@@ -89,7 +89,7 @@
 	//     img2 : "",
 	//     comment: ""
 	// };
-	
+
 	function createString(data){
 		// return '<li class="vs">' +
 			return '<div class="box">' +
@@ -131,24 +131,26 @@
 
 		// JSON 文字列を読み込み
 		var str = localStorage.getItem("sponge_key");
-	
+
 		// JSON 文字列からオブジェクトに変換
 		arr = JSON.parse(str);
-		console.log(arr[0].name1);
+		// console.log(arr[0].name1);
+
+
+		if(arr!==null){
+			for(var i=0;i<arr.length;i++){
+				var elementLi = document.createElement('li');
+				elementLi.className = "vs";
+				elementLi.innerHTML = createString(arr[i]);
+				// elementLi.appendChild(battleCardInnerHtml);
+				var objBody = document.getElementById("sort_new");
+				objBody.insertBefore(elementLi,objBody[0]);
+		/* 		objBody.appendChild(elementLi); */
+			}
+		}
 	}
 
-
-	for(var i=0;i<arr.length;i++){
-		var elementLi = document.createElement('li');
-		elementLi.className = "vs";
-		elementLi.innerHTML = createString(arr[i]);
-		// elementLi.appendChild(battleCardInnerHtml);
-		var objBody = document.getElementById("sort_new");
-		objBody.insertBefore(elementLi,objBody[0]);
-/* 		objBody.appendChild(elementLi); */
-	}
-
-	// ウェブストレージに対応している	
+	// ウェブストレージに対応している
 
 		// for(var i=0;i<arr.length;i++,j=j+3){
 		// 	// document.write(arr[i].name1);
