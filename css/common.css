@@ -9,15 +9,6 @@
 	-khtml-user-drag: none;
 }
 
-input {
-	user-select: auto;
-	-moz-user-select: auto;
-	-webkit-user-select: auto;
-	-khtml-user-select: auto;
-	-webkit-user-drag: auto;
-	-khtml-user-drag: auto;
-}
-
 body {
 	width: 320px;
 	height: auto;
@@ -134,6 +125,7 @@ h2 {
 　　　　　　　　　　　フッター
 */
 
+
 div#footer_top {
 	width: 320px;
 	height: 50px;
@@ -147,6 +139,68 @@ ul#footer {
     position: fixed;
     display: -webkit-box;
 }
+
+ul#footer li {
+	height: 43px;
+}
+
+ul#footer li a {
+	background:url(../images/ftbg.png) no-repeat;
+	background-size: 320px,43px;
+	line-height: 43px;
+	display: block;
+	text-indent: -9999px;
+}
+
+/* フッター01 */
+ul#footer li#ftli01 a {
+	width: 107px;
+	height: 43px;
+	background-position: 0px 0px;
+}
+
+ul#footer li#ftli01 a.ftli01_on {
+	background-position: 0px -43px;
+}
+
+ul#footer li#ftli01 a:hover {
+	background-position: 0px -43px;
+}
+
+/* フッター02 */
+ul#footer li#ftli02 a {
+	width: 106px;
+	height: 43px;
+	background-position: -107px 0px;
+}
+
+ul#footer li#ftli02 a.ftli02_on {
+	background-position: -107px -43px;
+}
+
+ul#footer li#ftli02 a:hover {
+	background-position: -107px -43px;
+}
+
+/* フッター03 */
+ul#footer li#ftli03 a {
+	width: 107px;
+	height: 43px;
+	background-position: -213px 0px;
+}
+
+ul#footer li#ftli03 a.ftli03_on {
+	background-position: -213px -43px;
+}
+
+ul#footer li#ftli03 a:hover {
+	background-position: -213px -43px;
+}
+
+
+
+/* CSSスプライト以前 */
+/*
 
 div#ftli01 {
 	width: 107px;
@@ -219,6 +273,8 @@ div.ftli03_bg_on {
 	background-image:url(../images/ftli_03_on.png);
 	background-size: 107px,43px;
 }
+*/
+/* CSSスプライト以前　END */
 
 
 
