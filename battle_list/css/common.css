@@ -138,6 +138,7 @@ ul#footer {
     bottom : 0px;
     position: fixed;
     display: -webkit-box;
+    z-index: 2;
 }
 
 ul#footer li {
