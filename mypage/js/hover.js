@@ -3,7 +3,7 @@
 	//backBtn
 	var backBtnEl      = null;
 	var backBtnIconEl  = null;
-/*
+	
 	//footer1
 	var footer1     = null;
 	var footer1Bg   = null;
@@ -15,7 +15,6 @@
 	//footer3
 	var footer3     = null;
 	var footer3Bg   = null;
-*/
 
 	function cacheDOMs () {
 		//backBtn
@@ -26,7 +25,6 @@
 		buildBtnEl     = document.getElementById('build');
 		buildBtnIconEl = document.getElementById('h_build');
 		
-/*
 		//footer1
 		footer1        = document.getElementById('ftli01');
 		footer1Bg      = document.getElementById('ft01');
@@ -38,7 +36,6 @@
 		//footer3
 		footer3        = document.getElementById('ftli03');
 		footer3Bg      = document.getElementById('ft03');
-*/
 	};
 
 	function setEvents () {
@@ -54,8 +51,7 @@
 				history.back();
 			}
 		});
-
-/*
+		
 		//footer1
 		footer1.addEventListener("touchstart", function(e) {
 			footer1Bg.className = "ftli01_bg_on";
@@ -94,7 +90,6 @@
 				location.href = "../battle_build/index.html"
 			}
 		});
-*/
 	}
 
 	document.addEventListener("DOMContentLoaded", function (e) {

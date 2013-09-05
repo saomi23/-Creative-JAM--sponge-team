@@ -10,7 +10,6 @@ $(function(){
 		//クリックイベントをバインド
 		$(this).click(function(){
 	    	location.href = url;
-	    	return false;
 		});
 	});
 });
