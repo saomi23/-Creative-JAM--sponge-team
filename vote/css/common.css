@@ -9,6 +9,15 @@
 	-khtml-user-drag: none;
 }
 
+input {
+	user-select: auto;
+	-moz-user-select: auto;
+	-webkit-user-select: auto;
+	-khtml-user-select: auto;
+	-webkit-user-drag: auto;
+	-khtml-user-drag: auto;
+}
+
 body {
 	width: 320px;
 	height: auto;
