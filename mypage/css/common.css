@@ -145,6 +145,7 @@ h2 {
 　　　　　　　　　　　フッター
 */
 
+
 div#footer_top {
 	width: 320px;
 	height: 50px;
@@ -178,13 +179,15 @@ ul#footer li#ftli01 a {
 	background-position: 0px 0px;
 }
 
-ul#footer li#ftli01 a#ftli01_on {
+ul#footer li#ftli01 a.ftli01_on {
 	background-position: 0px -43px;
 }
 
+/*
 ul#footer li#ftli01 a:hover {
 	background-position: 0px -43px;
 }
+*/
 
 /* フッター02 */
 ul#footer li#ftli02 a {
@@ -193,13 +196,15 @@ ul#footer li#ftli02 a {
 	background-position: -107px 0px;
 }
 
-ul#footer li#ftli02 a#ftli02_on {
+ul#footer li#ftli02 a.ftli02_on {
 	background-position: -107px -43px;
 }
 
+/*
 ul#footer li#ftli02 a:hover {
 	background-position: -107px -43px;
 }
+*/
 
 /* フッター03 */
 ul#footer li#ftli03 a {
@@ -208,13 +213,15 @@ ul#footer li#ftli03 a {
 	background-position: -213px 0px;
 }
 
-ul#footer li#ftli03 a#ftli03_on {
+ul#footer li#ftli03 a.ftli03_on {
 	background-position: -213px -43px;
 }
 
+/*
 ul#footer li#ftli03 a:hover {
 	background-position: -213px -43px;
 }
+*/
 
 
 
