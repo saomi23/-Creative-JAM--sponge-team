@@ -338,10 +338,11 @@ span#mincho {
 .com_el {
 	clear: both;
 	width: 280px;
-	height: auto;
+	height: 20px;
 	text-align: left;
 	padding-left: 20px;
 	padding-right: 20px;
+	margin: 10px 0;
 }
 
 .com_el span {
@@ -387,7 +388,7 @@ li.comment_left,li.comment_right {
 
 div.negaeru_on {
 	width: 68px;
-	height: 28px;
+	height: 27px;
 	background-image:url(../images/negaeru_on.png);
 	background-size: 68px,28px;
 	float:right;
@@ -420,7 +421,7 @@ div.negaeru_on {
 }
 .vs2 li.comment_left div.negaeru{
 	width: 68px;
-	height: 28px;
+	height: 27px;
 	background-image:url(../images/negaeru.png);
 	background-size: 68px,28px;
 	float:right;
