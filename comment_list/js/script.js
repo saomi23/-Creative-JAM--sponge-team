@@ -45,7 +45,7 @@
 				El.appendChild(negaeriAnime);
 				setTimeout(function(){
 					El.removeChild(negaeriAnime);
-				},2500);
+				},1500);
 				e.target.className = "negaeru_on";
 				hagedouBtnOn = document.getElementsByClassName("hagedou_on");
 				console.log(hagedouBtnOn);
@@ -56,7 +56,7 @@
 					} else {
 						El.className = "vs1";
 					}
-				}, 2500);
+				}, 1500);
 			})
 		}
 	}, false);
