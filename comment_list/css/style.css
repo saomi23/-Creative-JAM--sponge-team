@@ -471,7 +471,7 @@ form {
 	display: -webkit-box;
 	padding:6px;
 	position: fixed;
-	bottom: 27px;
+	bottom: 43px;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(1.00, #1c1c1c), color-stop(1.00, #1c1c1c), color-stop(0.00, #636363));
 	background: -webkit-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
 	background: -moz-linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
@@ -480,7 +480,7 @@ form {
 	background: linear-gradient(top, #636363 0%, #1c1c1c 100%, #1c1c1c 100%);
 	background-size:320px,45px;
 	width: 308px;
-	height: 45px;
+	height: 30px;
 	background-repeat:no-repeat;
 }
 
