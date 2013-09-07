@@ -22,17 +22,6 @@
 				startbtnBg.className = "start_bg";
 			},500);
 		});
-		
-/*
-		builtbtnEl.addEventListener("mousemove", function(e) {
-			builtbtnBg.className = "builtbtn_img";
-		});
-		builtbtnEl.addEventListener("mousemove", function(e) {
-			if (builtbtnBg.className === "back_img") {
-				location.href = "../battle_list/index.html"
-			}
-		});
-*/
 
 	}
 
