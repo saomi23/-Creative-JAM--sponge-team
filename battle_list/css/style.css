@@ -170,18 +170,12 @@ nav {
 	width: 65px;
 }
 
-.icon1_frame{
+.icon1_frame,.icon2_frame {
 	width: 65px;
 	height: 66px;
 	background-image: url(../images/icon_frame.png);
 	background-size: 66px,65px;
-}
-
-.icon2_frame {
-	width: 65px;
-	height: 66px;
-	background-image: url(../images/icon_frame.png);
-	background-size: 66px,65px;
+	position:relative;
 }
 
 .vs_left #icon1_frame {
@@ -192,21 +186,11 @@ nav {
 	text-align: right;
 }
 
-.icon1 {
-	width: 49px;
-	height: 49px;
-	padding: 8px;
-	background-size: 41px,51px;
-	background-repeat: no-repeat;
-	background-position: center center;
-	z-index: -1;
-	position: absolute;
-	background-color: #fff;
-}
-
-.icon2 {
-	width: 49px;
-	height: 49px;
+.icon1,.icon2 {
+	width: 46px;
+	height: 46px;
+	top: 2px;
+	left: 2px;
 	padding: 8px;
 	background-size: 41px,51px;
 	background-repeat: no-repeat;
