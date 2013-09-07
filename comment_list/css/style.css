@@ -499,6 +499,14 @@ input#submitBtn {
 textarea {
 	width: 240px;
 	margin-bottom: 6px;
+	font-size: 14px;
+	line-height: 1.0;
+	padding: 6px;
+	-webkit-border-radius: .3em;
+	border-radius: .3em;
+	border: none;
+	overflow: auto;
+	max-height: 78px;
 }
 
 
@@ -522,4 +530,6 @@ textarea {
 	background-size: 16px,16px;
 	line-height: 1.4;
 }
+
+
 
