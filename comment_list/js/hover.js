@@ -30,14 +30,6 @@
 			console.log(element);
 			element.className = "hagedou_on";			
 		})
-/*
-		document.getElementById('a_back').addEventListener("touchend", function(e) {
-			var element = document.getElementById('h_back');
-			console.log(element);
-			element.className = "back_img";
-			location.href = "../vote/index.html"
-		})
-*/
 		
 	})
 })();
