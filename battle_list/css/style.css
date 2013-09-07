@@ -44,6 +44,7 @@ ul#sort_new {
 	background-image:url(../images/sort_bg.png);
 	display: block;
 	width: 320px;
+	z-index: -2;
 }
 
 ul#sort_passion {
@@ -198,6 +199,8 @@ nav {
 	background-size: 51px,51px;
 	background-repeat: no-repeat;
 	background-position: center center;
+	z-index: -1;
+	position: absolute;
 }
 
 .icon2 {
@@ -207,6 +210,8 @@ nav {
 	background-size: 51px,51px;
 	background-repeat: no-repeat;
 	background-position: center center;
+	z-index: -1;
+	position: absolute;
 }
 
 .icon1 {
