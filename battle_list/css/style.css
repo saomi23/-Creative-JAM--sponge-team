@@ -193,25 +193,27 @@ nav {
 }
 
 .icon1 {
-	width: 51px;
-	height: 51px;
+	width: 49px;
+	height: 49px;
 	padding: 8px;
-	background-size: 51px,51px;
+	background-size: 41px,51px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	z-index: -1;
 	position: absolute;
+	background-color: #fff;
 }
 
 .icon2 {
-	width: 51px;
-	height: 51px;
+	width: 49px;
+	height: 49px;
 	padding: 8px;
-	background-size: 51px,51px;
+	background-size: 41px,51px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	z-index: -1;
 	position: absolute;
+	background-color: #fff;
 }
 
 .icon1 {
