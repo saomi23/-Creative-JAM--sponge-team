@@ -44,7 +44,7 @@ ul#sort_new {
 	background-image:url(../images/sort_bg.png);
 	display: block;
 	width: 320px;
-	z-index: -2;
+	z-index: 0;
 }
 
 ul#sort_passion {
