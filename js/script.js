@@ -19,7 +19,7 @@
 	var arr = [];
 */
 
-// べちいいいいいいいい！
+// べちいいいいいいいい！！
 
 	// document.addEventListener('DOMContentLoaded', function(e) {
 
