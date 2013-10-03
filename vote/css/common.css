@@ -9,6 +9,10 @@
 	-khtml-user-drag: none;
 }
 
+a {
+	text-decoration: none;
+}
+
 input {
 	user-select: auto;
 	-moz-user-select: auto;
