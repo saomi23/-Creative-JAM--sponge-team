@@ -4,7 +4,7 @@
 	battleListBtn[0].addEventListener('click',function(){
 		location.href="../vote/index.html"
 	})
-	
+
 	/* ここらへんとりあえず隠すよ */
 
 /*
@@ -18,6 +18,8 @@
 	var element8;
 	var arr = [];
 */
+
+// べちいいいいいいいい！
 
 	// document.addEventListener('DOMContentLoaded', function(e) {
 
@@ -34,7 +36,7 @@
 		    element3 = document.createElement('div');
 		    element3.className = "";
 		    element3.innerHTML = "";
-		    element3.style.backgroundColor = '';		    
+		    element3.style.backgroundColor = '';
 		    element4 = document.createElement('div');
 		    element4.className = "";
 		    element4.src = "";
@@ -83,24 +85,24 @@
 			var objBody7 = document.getElementsByTagName("div").item(1);
 			objBody7.appendChild(element7);
 			var objBody8 = document.getElementsByTagName("div").item(1);
-			objBody8.appendChild(element8);	
+			objBody8.appendChild(element8);
 			var objBody9 = document.getElementsByTagName("div").item(1);
-			objBody9.appendChild(element9);			
+			objBody9.appendChild(element9);
 			var objBody10 = document.getElementsByTagName("div").item(2);
-			objBody10.appendChild(element10);																				
+			objBody10.appendChild(element10);
 		}
 */
-	
 
 
-	
+
+
 
 		// ウェブストレージに対応している
 /* 		if(window.localStorage){ */
-	
+
 			// JSON 文字列を読み込み
 /* 			var str = localStorage.getItem("sponge_key"); */
-		
+
 			// JSON 文字列からオブジェクトに変換
 /* 			arr = JSON.parse(str); */
 
