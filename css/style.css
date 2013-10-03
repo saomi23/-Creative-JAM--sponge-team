@@ -1,13 +1,13 @@
 body {
 	width: 320px;
-	height: 568px;
+	height: 528px;
 	background-image:url(../images/bg.png);
-	background-size:320px,568px;
+	background-size:320px,528px;
 	position: relative;
 }
 
 div#wrapper {
-	height: 568px;
+	height: 548px;
 }
 
 
@@ -77,6 +77,6 @@ section#footer {
 	height: 43px;
 	background-image:url(../images/f_bg.png);
 	background-size:320px,43px;
-	top: 525px;
+	top: 485px;
 	position: absolute;
 }
