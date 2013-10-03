@@ -17,10 +17,12 @@
 		//スタート
 		startbtnEl.addEventListener("click", function(e) {
 			startbtnBg.className = "start_bg_on";
+/*
 			setTimeout(function(){
 				location.href = "battle_list/index.html"
 				startbtnBg.className = "start_bg";
 			},500);
+*/
 		});
 
 	}

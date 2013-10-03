@@ -45,6 +45,7 @@ section#startEl {
 	position: relative;
 }
 
+/*
 div#start {
 	width: 106px;
 	height: 36px;
@@ -65,6 +66,23 @@ div.start_bg {
 }
 
 div.start_bg_on {
+	background-image: url(../images/startbtn_on.png);
+	background-size: 106px,36px;
+}
+*/
+
+a.startbtn {
+	width: 106px;
+	height: 36px;
+	position: absolute;
+	background-repeat: no-repeat;
+	top: 35px;
+	left: 16px;
+	background-image: url(../images/startbtn.png);
+	background-size: 106px,36px;
+}
+
+a.startbtn:hover {
 	background-image: url(../images/startbtn_on.png);
 	background-size: 106px,36px;
 }
